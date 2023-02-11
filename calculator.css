@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container{
+   background-color: #e5f507;
+   height: 100vh;
+   width:100vw;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #172cb6;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(15, 13, 128, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid rgb(45, 224, 22) 0.5px;
+    color: black;
+    border-radius: 0 px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #fb0066;
+    width: 60%;
+    border-radius: 7px;
+    height: 100%;
+    outline: orangered;
+
+}
+
+input[type=button] {
+    font-family: 'Orbitron', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #db17f5;
+    color: white;
+    border: solid rgb(8, 190, 223) 0.5px;
+    width: 50%;
+    border-radius: 7px;
+    height: 100%;
+    outline: none;
+    border-radius: 12px;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
